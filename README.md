@@ -1,2 +1,2 @@
 # atividades_start
-Repositório para arquivar todas as atividades referente ao curso do START. 
+Criei este repositório com o intuito de arquivar todas as atividades que foram e vão ser executadas no projeto do START. 
