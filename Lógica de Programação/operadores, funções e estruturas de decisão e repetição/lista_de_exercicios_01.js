@@ -18,6 +18,8 @@ function pecas(cod,valor,quant)
 
 pecas(101,10,2)
 
+//-------------------------------------------------------------------
+
 /*2) Faça uma função para calcular o estoque médio de uma peça,
 sendo que ESTOQUEMÉDIO = (QUANTIDADE MÍNIMA + QUANTIDADE MÁXIMA) /2
 */
@@ -28,6 +30,8 @@ function estoqueMedio (quantmin,quantmax)
     console.log(media)
 }
 estoqueMedio(8,5)
+
+//-------------------------------------------------------------------
 
 /*3) Faça uma função que:
 a) Receba a cotação do dólar
@@ -43,6 +47,8 @@ function conversaoDolar (cotacao,valorDolar)
     console.log("O valor convertido para real é: " + conversao)
 }
 conversaoDolar (4.80, 5)
+
+//-------------------------------------------------------------------
 
 /*4) Sabendo que A=3, B=7 e C=4, informe se as expressões abaixo são verdadeiras ou falsas.
 a) (A + C) > B  false         
