@@ -1,14 +1,18 @@
 /*1) Faça uma função que recebe a idade de uma pessoa em anos, 
 meses e dias e retorna essa idade expressa em dias.
+*/
 
-
-let idadeEmDias = (ano,meses,dias)  => 
+let receber = (ano,meses,dias)  => 
 {
     
-    let recerber = 
+    let idadeEmDias = (ano * 365) + (meses * 12) + dias
+    
+    console.log(idadeEmDias)
 
 }
-*/
+
+
+receber(22, 264, 8390)
 
 //-------------------------------------------------------------------
 
