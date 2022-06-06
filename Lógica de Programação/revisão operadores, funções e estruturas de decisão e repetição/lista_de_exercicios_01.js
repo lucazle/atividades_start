@@ -48,7 +48,7 @@ function conversaoDolar (cotacao,valorDolar)
 }
 conversaoDolar (4.80, 5)
 
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 
 /*4) Sabendo que A=3, B=7 e C=4, informe se as expressões abaixo são verdadeiras ou falsas.
 a) (A + C) > B  false         
