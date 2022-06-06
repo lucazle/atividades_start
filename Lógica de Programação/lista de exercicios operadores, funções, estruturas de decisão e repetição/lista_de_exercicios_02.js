@@ -5,14 +5,14 @@ meses e dias e retorna essa idade expressa em dias.
 let receber = (ano,meses,dias)  => 
 {
     
-    let idadeEmDias = (ano * 365) + (meses * 12) + dias
+    let idadeEmDias = (ano * 365) + (meses * 30) + dias
     
     console.log(idadeEmDias)
 
 }
 
 
-receber(22, 264, 8390)
+receber(22, 0, 19)
 
 //-------------------------------------------------------------------
 
