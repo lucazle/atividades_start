@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fffafa;
+}
+
+#nav{
+    margin-left: 48%;
+}
+
+#site_titulo {
+    background-color: rgb(230, 230, 124);
+    font-size: 50px;
+}
+
+#descricao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 70%;
+}
+
+article{
+    text-align: center;
+}
+
+.categoria_cinema{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: lightblue;
+}
+
+.categoria_series{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 35%;
+    margin-left: 35%;
+    background-color: lightcoral;
+}
+
+.titulo_noticia{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+footer{
+    text-align: end;
+}
