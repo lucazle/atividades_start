@@ -1,0 +1,16 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
+}
+
+#icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 20ch;
+}
