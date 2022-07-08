@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastrar Contatos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <fieldset>
+                <h1 id="titulo">Cadastrar Contatos</h1>
+            </fieldset>
+        </header>
+
+        <form>
+            <fieldset>
+                <section class="campo">
+                    <label for="nome"><strong>Nome: </strong></label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </section>
+
+                <section class="campo">
+                    <label for="telefone"><strong>Telefone: </strong></label>
+                    <input type="number" name="numero" id="numero" placeholder="Digite seu telefone" required>
+                </section>
+
+                <section class="campo">
+                    <label for="endereco"><strong>Endereço: </strong></label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" required>
+                </section>
+            </fieldset>
+
+            <fieldset>
+                <section id="genero">
+                    <label for="genero"><strong>Gênero</strong></label>
+                    <label class="selecao">
+                        <input type="radio" name="genero" value="masculino">Masculino
+                    </label>
+                    <label class="selecao">
+                        <input type="radio" name="genero" value="feminino">Feminino
+                    </label>
+                    <label class="selecao">
+                        <input type="radio" name="genero" value="outro">Outro
+                    </label>
+                    <table>
+                        <tr>
+                            <td><img id="pic" src="assets/img/Design sem nome.png" width="50%"></td>
+                            <td id="texto">
+                                Olá, me chamou Lucas Souza, tenho 23 anos, sou geminiano e estudante de desenvolvimento de software.
+                            </td>
+                        </tr>
+                     </table>
+                </section>
+            </fieldset>
+        </form>
+
+        <button>Salvar</button>
+        <button>Cancelar</button>
+
+        <footer>
+            By Lucas
+        </footer>
+    </body>
+</html>
